@@ -1,0 +1,5 @@
+npm test
+
+#!/bin/sh
+pnpm test
+pnpm lint

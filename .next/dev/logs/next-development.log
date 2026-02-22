@@ -1,0 +1,61 @@
+[00:08:22.405] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.471] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.503] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/pages/_app/build-manifest.json'
+[00:08:22.511] Browser ERROR   ./app/api/feed/route.ts:5:1
+Export deletePhoto doesn't exist in target module
+  3 | import { NextResponse } from "next/server";
+  4 | import { RankingMode } from "@/types";
+> 5 | import { createPhoto, deletePhoto, getFeed, updatePhoto } from "@/services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export async function GET(request: Request) {
+  8 |   const { searchParams } = new URL(request.url);
+
+The export deletePhoto was not found in module [project]/services/index.ts [app-route] (ecmascript).
+Did you mean to import createPhoto?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:22.511] Browser ERROR   ./app/api/feed/route.ts:5:1
+Export updatePhoto doesn't exist in target module
+  3 | import { NextResponse } from "next/server";
+  4 | import { RankingMode } from "@/types";
+> 5 | import { createPhoto, deletePhoto, getFeed, updatePhoto } from "@/services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export async function GET(request: Request) {
+  8 |   const { searchParams } = new URL(request.url);
+
+The export updatePhoto was not found in module [project]/services/index.ts [app-route] (ecmascript).
+Did you mean to import createPhoto?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:22.511] Browser ERROR   ./app/api/feed/route.ts:5:1
+Export deletePhoto doesn't exist in target module
+  3 | import { NextResponse } from "next/server";
+  4 | import { RankingMode } from "@/types";
+> 5 | import { createPhoto, deletePhoto, getFeed, updatePhoto } from "@/services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export async function GET(request: Request) {
+  8 |   const { searchParams } = new URL(request.url);
+
+The export deletePhoto was not found in module [project]/services/index.ts [app-route] (ecmascript).
+Did you mean to import createPhoto?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:22.511] Browser ERROR   ./app/api/feed/route.ts:5:1
+Export updatePhoto doesn't exist in target module
+  3 | import { NextResponse } from "next/server";
+  4 | import { RankingMode } from "@/types";
+> 5 | import { createPhoto, deletePhoto, getFeed, updatePhoto } from "@/services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export async function GET(request: Request) {
+  8 |   const { searchParams } = new URL(request.url);
+
+The export updatePhoto was not found in module [project]/services/index.ts [app-route] (ecmascript).
+Did you mean to import createPhoto?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:08:22.546] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.582] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.608] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/pages/_app/build-manifest.json'
+[00:08:22.644] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.682] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/app/page/build-manifest.json'
+[00:08:22.711] Server  ERROR   Error: ENOENT: no such file or directory, open '/home/nihal/Desktop/travel-app/Travel-app/.next/dev/server/pages/_app/build-manifest.json'
